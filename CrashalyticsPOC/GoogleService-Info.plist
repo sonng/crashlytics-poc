@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>800922732521-99o7i0hi0u12v33ih0ofhlin67duu01i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.800922732521-99o7i0hi0u12v33ih0ofhlin67duu01i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCoD8cKg1hUiBmuzapCkSzga1isWqeFA9I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>800922732521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hipagesgroup.CrashalyticsPOC</string>
+	<key>PROJECT_ID</key>
+	<string>tests-ef2ce</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tests-ef2ce.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:800922732521:ios:e5173ab8cabbb117</string>
+	<key>DATABASE_URL</key>
+	<string>https://tests-ef2ce.firebaseio.com</string>
+</dict>
+</plist>
