@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import Crashlytics
+import HockeySDK
 
 
 @UIApplicationMain
@@ -17,7 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        BITHockeyManager.shared().configure(withIdentifier: "b4d563b3ae534f83af7c4f54a010c489")
+        BITHockeyManager.shared().start()
+        
         FirebaseApp.configure()
+
 
         return true
     }

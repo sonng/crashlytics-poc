@@ -19,16 +19,25 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.4)
   - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
     - GoogleToolboxForMac/Defines (= 2.1.4)
+  - HockeySDK (5.1.2):
+    - HockeySDK/DefaultLib (= 5.1.2)
+  - HockeySDK/DefaultLib (5.1.2)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
 
 DEPENDENCIES:
   - Crashlytics
   - Fabric
   - Firebase/Core
+  - HockeySDK
+  - RxCocoa
+  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -39,7 +48,10 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseInstanceID
     - GoogleToolboxForMac
+    - HockeySDK
     - nanopb
+    - RxCocoa
+    - RxSwift
 
 SPEC CHECKSUMS:
   Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
@@ -49,8 +61,11 @@ SPEC CHECKSUMS:
   FirebaseCore: cafc814b2d84fc8733f09e653041cc2165332ad7
   FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  HockeySDK: 38b7e2726af1ea86ae97ce4b5de33ab0817e3500
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: 480ed615b61442fdb44c59d4df0683d09a3866af
+PODFILE CHECKSUM: 66cff050074572084211b516840ab591e3c2422d
 
 COCOAPODS: 1.5.2
